@@ -6,15 +6,15 @@ function CoinFlip(x)
 		random = Math.random();
 		if (random <= 0.5)
 		{
-			console.log("Heads gotten:", heads, `[1 in ${2**heads}]`);
 			heads = 1;
 			tails++;
+			console.log("T", tails, `[1 in ${2**tails}]`);
 		}
 		else
 		{
-			console.log("Tails gotten:", tails, `[1 in ${2**tails}]`);
 			tails = 1;
 			heads++;
+			console.log("H", heads, `[1 in ${2**heads}]`);
 		}
 	}
 }
