@@ -1,4 +1,4 @@
-function consoleCoinFlip(x)
+function CoinFlip(x)
 {
 	let heads = 0, tails = 0, random;
 	for (let i = 0; i < x; i++)
