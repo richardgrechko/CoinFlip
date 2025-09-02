@@ -52,6 +52,7 @@ class CoinFlip {
 				}
 			}
 		}
+		console.log(result);
 		console.log("Highest heads", highestHeads, `[1 in ${2**highestHeads}]`);
 		console.log("Highest tails", highestTails, `[1 in ${2**highestTails}]`);
 	};
